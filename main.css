@@ -1,0 +1,104 @@
+:root{
+    --rows: 3;
+    --header: 'Twilio Sans Mono';
+    --links: 'Consolas Ligaturized';
+    --fg: #c5c8c6;
+    --bg: #101010;
+    --red:     #cc6666;
+    --green:   #b5bd68;
+    --yellow:  #e6c547;
+    --blue:    #81a2be;
+    --magenta: #b294bb;
+    --cyan:    #70c0ba;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+html{
+    background-color: var(--bg);
+    height: 100%;    
+    /* background-image: url(pexels-blackhusky-16053277.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;     */
+}
+
+/* h1 {
+    color: var(--yellow);
+    width: 100%;
+    text-align: center; 
+    font-size: 6rem;
+    text-shadow: 3px 3px 15px var(--bg);
+} */
+
+.container{
+    margin: 0.8em;
+    padding: 1.5em;
+    /* display: inline-block; */
+}
+
+.container ol{
+    list-style-type: none;
+}
+
+.title{
+    font-family: var(--header);
+    font-size: 3.5rem;
+    font-style: italic;
+    margin: 0.5rem;
+    /* padding-bottom: 0.2rem; */
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.linkbox{
+    display: grid;
+    grid-template-columns: repeat(var(--rows),1fr);
+    gap: 1em;
+  }
+
+  ol a{
+    font-family: var(--links) !important;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--fg);
+    text-shadow: 1px 1px 1px var(--bg);
+    font-size: 1.4rem;
+    text-decoration: none;    
+  }
+
+  li{
+    padding-top: 0.5rem;
+  }
+
+  ol a:hover{
+    /* background-color: var(--magenta); */
+    color: var(--yellow);
+  }
+
+  .c1Title{
+    color: var(--blue);
+  }
+  
+  .c2Title{
+    color: var(--green);
+  }
+
+  .c3Title{
+    color: var(--magenta);
+  }
+
+  .c4Title{
+    color: var(--red);
+  }
+
+  .c5Title{
+    color: var(--yellow);
+  }
