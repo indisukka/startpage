@@ -1,7 +1,7 @@
 :root{
     --rows: 3;
     --header: 'Twilio Sans Mono';
-    --links: 'Consolas Ligaturized';
+    --links: 'Intel One Mono';
     --fg: #c5c8c6;
     --bg: #101010;
     --red:     #cc6666;
@@ -52,7 +52,7 @@ html{
 .title{
     font-family: var(--header);
     font-size: 3.5rem;
-    font-style: italic;
+    /* font-style: italic; */
     margin: 0.5rem;
     /* padding-bottom: 0.2rem; */
     text-shadow: 2px 2px 2px #000000;
@@ -66,8 +66,8 @@ html{
 
   ol a{
     font-family: var(--links) !important;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: 500;
+    /* font-style: italic; */
     color: var(--fg);
     text-shadow: 1px 1px 1px var(--bg);
     font-size: 1.4rem;
