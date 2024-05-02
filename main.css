@@ -1,7 +1,7 @@
 :root{
     --rows: 3;
     --header: 'MD IO Trial', monospace;
-    --links: 'Geist Mono Variable', monospace;
+    --links: 'Geist Mono', monospace;
     --fg: #c5c8c6;
     --bg: #101010;
     --red:     #cc6666;
